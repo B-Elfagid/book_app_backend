@@ -11,3 +11,7 @@ memoir = Category.create(name: "Memoir")
 history = Category.create(name: "History") 
 politics = Category.create(name: "Politics") 
 food = Category.create(name: "Food") 
+
+User.create(username: "betty", email: "bet@gmail.com", password: "password")
+User.create(username: "mel", email: "mel@gmail.com", password: "password1")
+User.create(username: "martha", email: "martha@gmail.com", password: "password2")
